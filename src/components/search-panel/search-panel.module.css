@@ -1,0 +1,17 @@
+.search-input {
+  width: auto;
+  flex-grow: 1;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 850px) {
+  .search-input {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .search-input{
+    text-align: center;
+  }
+}

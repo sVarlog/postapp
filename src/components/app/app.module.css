@@ -1,0 +1,30 @@
+.app {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.search-panel {
+    margin: 1rem 0;
+    display: flex;
+}
+
+@media screen and (max-width: 850px){
+    .app{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app {
+        max-width: 400px;
+    }
+    .search-panel{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app{
+        max-width: 300px;
+    }
+}

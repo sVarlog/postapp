@@ -1,0 +1,21 @@
+.bottom-panel {
+    margin-top: 25px;
+    display: flex;
+}
+
+.bottom-panel .new-post-label {
+    width: auto;
+    flex-grow: 1;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 450px) {
+    .bottom-panel{
+        flex-direction: column;
+    }
+    .bottom-panel .new-post-label{
+        margin-right: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
